@@ -1,0 +1,782 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-default-dark: rgba(64, 65, 73, 1);
+  --dl-color-default-gray: rgba(153, 153, 153, 1);
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-default-white: rgba(255, 255, 255, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-default-accent: rgba(247, 101, 74, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Oswald;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Oswald;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.p {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.h4 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Oswald;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.pReviews {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.group2-container {
+  display: block; /* или можно использовать display: inline-block; */
+}
+
+.group2-services, .group2-services1, .group2-contacts, .group2-footer {
+  display: block; /* или можно использовать display: inline-block; */
+  margin-bottom: 20px; /* добавляет промежуток между блоками */
+}
+.templates1-moreon-figmainfo-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.templates1-moreon-figmainfo-templates1-moreon-figmainfo {
+  gap: 76px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+.templates1-moreon-figmainfo-services {
+  width: 1110px;
+  height: 359px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text {
+  left: 379px;
+  color: rgba(0, 0, 0, 1);
+  width: 351px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-servicesitem {
+  top: 109px;
+  left: 0px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text02 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text07 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem1 {
+  top: 109px;
+  left: 380px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group1 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text08 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text13 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem2 {
+  top: 109px;
+  left: 760px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group2 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text14 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text19 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-services1 {
+  width: 1110px;
+  height: 644px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text20 {
+  left: 379px;
+  color: rgba(0, 0, 0, 1);
+  width: 351px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-servicesitem3 {
+  top: 109px;
+  left: 0px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group3 {
+  top: 92px;
+  left: 89px;
+  width: 172px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text22 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-servicesitem4 {
+  top: 109px;
+  left: 380px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group4 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text27 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text32 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem5 {
+  top: 109px;
+  left: 760px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group5 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text33 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text38 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem6 {
+  top: 394px;
+  left: 0px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group6 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text39 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text44 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem7 {
+  top: 394px;
+  left: 380px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group7 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text45 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text50 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-servicesitem8 {
+  top: 394px;
+  left: 760px;
+  width: 350px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(247, 247, 247, 1);
+}
+.templates1-moreon-figmainfo-group8 {
+  top: 59px;
+  left: 86px;
+  width: 172px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text51 {
+  top: 70px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text56 {
+  left: 59px;
+  color: var(--dl-color-default-accent);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-contacts {
+  width: 1110px;
+  height: 304px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text57 {
+  left: 475px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-contactsitem {
+  top: 113px;
+  left: 0px;
+  width: 255px;
+  height: 191px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text59 {
+  top: 65px;
+  color: var(--dl-color-default-gray);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text61 {
+  left: 92px;
+  color: var(--dl-color-default-accent);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-text62 {
+  top: 119px;
+  color: rgba(0, 0, 0, 1);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-contactsitem1 {
+  top: 113px;
+  left: 285px;
+  width: 255px;
+  height: 191px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text67 {
+  top: 65px;
+  color: var(--dl-color-default-gray);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text69 {
+  left: 92px;
+  color: var(--dl-color-default-accent);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-text70 {
+  top: 119px;
+  color: rgba(0, 0, 0, 1);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-contactsitem2 {
+  top: 113px;
+  left: 570px;
+  width: 255px;
+  height: 191px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text75 {
+  top: 65px;
+  color: var(--dl-color-default-gray);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text77 {
+  left: 92px;
+  color: var(--dl-color-default-accent);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-text78 {
+  top: 119px;
+  color: rgba(0, 0, 0, 1);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-contactsitem3 {
+  top: 113px;
+  left: 855px;
+  width: 255px;
+  height: 155px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.templates1-moreon-figmainfo-text83 {
+  top: 65px;
+  color: var(--dl-color-default-gray);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text85 {
+  left: 92px;
+  color: var(--dl-color-default-accent);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.templates1-moreon-figmainfo-text86 {
+  top: 119px;
+  color: var(--dl-color-default-accent);
+  width: 255px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-footer {
+  width: 1920px;
+  height: 82px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(64, 65, 73, 1);
+}
+.templates1-moreon-figmainfo-text88 {
+  top: 30px;
+  left: 405px;
+  color: var(--dl-color-default-white);
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.templates1-moreon-figmainfo-text90 {
+  top: 30px;
+  left: 1295px;
+  color: var(--dl-color-default-white);
+  height: auto;
+  position: absolute;
+  text-align: right;
+  line-height: normal;
+}
